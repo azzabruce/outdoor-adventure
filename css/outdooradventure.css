@@ -4,6 +4,113 @@
     padding: 0;
     
 }
+html{
+                font-size: 14px;
+            }
+            .cell-3-img{
+                padding-bottom:10px;
+            }
+             .main-pargraph1{
+                 
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+            .main-pargraph2{
+                 
+                 padding-top:10px;
+            }
+            .main-pargraph1 img{
+                 margin-left:15px;
+                 float:right;
+                
+            }
+            .main-pargraph2 img{
+                 float:left;
+                 margin-right:15px;
+            }
+           
+            .trails{
+                background-color: #CEECFE;
+                border: solid 1px black;
+                margin-top: 20px;
+            }
+            .trails-list{
+                display: flex;
+                justify-content: space-around;
+                padding:20px;
+               
+            }
+            .trails h4{
+               text-align: center;
+            }
+            .trails ul{
+               padding-left:25px;
+               font-size: 12px;
+            }
+            .vertical_line{
+                border: 1px solid rgb(201, 201, 201);
+                border-radius:50%;
+                height: 80px;
+            }
+            .gallery{
+                padding-top:10px;
+               
+            }
+            .gallery-images{
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                padding-top:10px;
+            }
+            .gallery-images div {
+                padding: 1px;
+          
+            }
+            .gallery-images div img {
+                border: 1px solid black;
+                width:150px;
+                height: 150px;
+                width:100%;
+            }
+            h3{
+                background-color: #0172BA;
+                color:white;
+                text-align: center;
+            }
+            .types-canoes{
+                padding-top: 10px;
+            }
+            .types-canoes ul{
+                padding-top:10px;
+                padding-left: 25px;
+            }
+            .canoeing p{
+                padding-top:10px;
+            }
+            .cell-6{
+                margin-right:100px;
+                margin-left:100px;
+                border-top: 1px solid #0172BA;
+                border-bottom: 1px solid #0172BA;
+                font-size:10px;
+                margin-top:10px;
+        
+            }
+            .cell-6 h5{
+                text-align: center;
+            }
+
+            h6{
+                border-bottom: 1px solid #0172BA;
+                font-weight: 700;
+                font-size: 12px;
+                width:180px;
+            }
+            .footer-logo img{ 
+                position: relative;
+                right:20px;
+            }
 .main-contaniner{
     display:grid;
     grid-template-areas: "header header header"
